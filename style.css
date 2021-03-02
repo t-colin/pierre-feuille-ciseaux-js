@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(221, 173, 17);
+    margin: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+img{
+    width: auto;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+}
+
+#computerPierre, #computerFeuille, #computerciseaux{
+    width: auto;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    position:absolute;
+    top: 360px;
+    left: 2000px;
+}
+
+#versus {
+    position:absolute;
+    top: 410px;
+    left: 2000px;
+}
+
+#resultat{
+    position: absolute;
+    top: 2000px;
+    left: 650px;
+    font-size: 70px;
+}
+
+#rejouer{
+    position: absolute;
+    top: 2000px;
+    left: 1200px;
+    background-color: #a01d1d; /* Green */
+    border-radius: 20%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
